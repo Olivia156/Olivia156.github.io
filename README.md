@@ -1,4 +1,4 @@
 # Olivia156.github.io
-website
+These are a few recipes that I make fairly often.
 
-This is a website where I will test code and things I learn and try to figure things out.
+I made this website for a Language Arts assignment, and none of the recipes are actually mine.

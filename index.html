@@ -14,6 +14,16 @@
       text-align: center;
       font-size: 20px
     }
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 5px;
+    }
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
   </style>
 </head>
 <body>
@@ -22,21 +32,29 @@
     <h4>Click on the images to see their recipes.</h4>
   </header>
   <main>
-    <a href="sourdough.html">
-      <figure>
-        <img src="https://seattleschools-my.sharepoint.com/:i:/r/personal/1omfann_seattleschools_org/Documents/English/October/Website/IMG_1768.jpg?csf=1&web=1&e=1j2E7b" alt="Sourdough Bread" width="300px"/>
-      </figure>
-    </a>
-    <a href="biscuits.html">
-      <figure>
-        <img src="https://seattleschools-my.sharepoint.com/:i:/r/personal/1omfann_seattleschools_org/Documents/English/October/Website/Biscuit%20Cover.jpg?csf=1&web=1&e=YOXzI2" alt="Sourdough Biscuits" width="300px"/>
-      </figure>
-    </a>
-    <a href="cake.html">
-      <figure>
-        <img src="https://seattleschools-my.sharepoint.com/:i:/r/personal/1omfann_seattleschools_org/Documents/English/October/Website/Cake%20Cover.jpg?csf=1&web=1&e=zJYjzc" alt="Carrot Cake" width="300px"/>
-      </figure>
-    </a>
+    <div class="column">
+      <div class="row">
+        <a href="sourdough.html">
+          <figure>
+            <img src="https://seattleschools-my.sharepoint.com/:i:/r/personal/1omfann_seattleschools_org/Documents/English/October/Website/IMG_1768.jpg?csf=1&web=1&e=1j2E7b" alt="Sourdough Bread" style="width:100%"/>
+          </figure>
+        </a>
+      </div>
+      <div class="row>
+        <a href="biscuits.html">
+          <figure>
+            <img src="https://seattleschools-my.sharepoint.com/:i:/r/personal/1omfann_seattleschools_org/Documents/English/October/Website/Biscuit%20Cover.jpg?csf=1&web=1&e=YOXzI2" alt="Sourdough Biscuits" style="width:100%"/>
+          </figure>
+        </a>
+      </div>
+      <div class="row"
+        <a href="cake.html">
+          <figure>
+            <img src="https://seattleschools-my.sharepoint.com/:i:/r/personal/1omfann_seattleschools_org/Documents/English/October/Website/Cake%20Cover.jpg?csf=1&web=1&e=zJYjzc" alt="Carrot Cake" style="width:100%"/>
+          </figure>
+        </a>
+      </div>
+    </div>
   </main>
   <footer>
     <p>The recipes are from various websites, which I've linked at the bottom of each page. All images on this site are my own.</p>

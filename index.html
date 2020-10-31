@@ -6,6 +6,13 @@
   <style>
     h1 {
       font-size: 60px;
+      margin-bottom: 0px;
+    }
+    h4 {
+      margin-top: 0px;
+    }
+    main {
+      background-color: #fffffb;
     }
     body {
       color: #233d4d;
@@ -19,38 +26,32 @@
     }
     .column {
       flex: 33.33%;
-      padding: 5px;
+      padding: 2px;
     }
-    .swap-on-hover {
-  position: relative;	
+    figcaption {
+      text-decoration: none;
+      color: #233d4d;
     }
-    .swap-on-hover img {
-      position: absolute;
-      top:0;
-      left:0;
-      overflow: hidden;
-    }
-    .swap-on-hover .swap-on-hover__front-image {
-      z-index: 9999;
+    img {
       cursor: pointer;
     }
-    .swap-on-hover:hover > .swap-on-hover__front-image{
-      opacity: 0;
+    img:hover{
+      opacity: 80%;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Olivia's Recipes</h1>
-    <h4>Click on the images to see their recipes.</h4>
+    <h1>RECIPES</h1>
+    <h4>baked goods</h4>
   </header>
   <main>
     <div class="row">
       <div class="column">
         <a href="sourdough.html">
-          <figure class="swap-on-hover">
-            <img class="swap-on-hover__front-image" src="https://seattleschools-my.sharepoint.com/:i:/r/personal/1omfann_seattleschools_org/Documents/English/October/Website/IMG_1768.jpg?csf=1&web=1&e=1j2E7b" alt="Sourdough Bread" style="width:100%"/>
-            <img class="swap-on-hover__back-image" src="https://seattleschools-my.sharepoint.com/:i:/r/personal/1omfann_seattleschools_org/Documents/English/October/Website/Sourdough%20Cover.jpg?csf=1&web=1&e=CzEPR7" style="width:100%"/>
+          <figure>
+            <img src="https://seattleschools-my.sharepoint.com/:i:/r/personal/1omfann_seattleschools_org/Documents/English/October/Website/IMG_1768.jpg?csf=1&web=1&e=1j2E7b" alt="Sourdough Bread" style="width:100%"/>
+            <figcaption>sourdough bread</figcaption>
           </figure> 
         </a>
       </div>
@@ -58,6 +59,7 @@
         <a href="biscuits.html">
           <figure>
             <img src="https://seattleschools-my.sharepoint.com/:i:/r/personal/1omfann_seattleschools_org/Documents/English/October/Website/Biscuit%20Cover.jpg?csf=1&web=1&e=YOXzI2" alt="Sourdough Biscuits" style="width:100%"/>
+            <figcaption>sourdough biscuits</figcaption>
           </figure>
         </a>
         </div>
@@ -65,6 +67,7 @@
         <a href="cake.html">
           <figure>
             <img src="https://seattleschools-my.sharepoint.com/:i:/r/personal/1omfann_seattleschools_org/Documents/English/October/Website/Cake%20Cover.jpg?csf=1&web=1&e=zJYjzc" alt="Carrot Cake" style="width:100%"/>
+            <figcaption>carrot cake</figcaption>
           </figure>
         </a>
       </div>

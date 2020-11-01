@@ -32,17 +32,21 @@ img:hover{
 
 /*navigation*/
 .recipes {
-   font-size: 80px;
-   text-decoration: none;
-   color: #233d4d;
-   font-family: georgia, serif;
-   font-weight: bold;
+  font-size: 80px;
+  text-decoration: none;
+  color: #233d4d;
+  font-family: georgia, serif;
+  font-weight: bold;
 }
 .categories {
-    font-weight: bold;
-    text-decoration: none;
-    color: #233d4d;
-    font-family: georgia, serif;
-    margin-left: 15px;
-    margin-right: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #233d4d;
+  font-family: georgia, serif;
+  margin-left: 15px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.categories:hover {
+  color: #a33b20;
 }
